@@ -1,64 +1,22 @@
 # WELCOME TO MY PROFILE
-Hello, I am a Computer Science Graduate from the UK who loves Linux and systems development. I try to do things that look fun and interesting.
+Hello, I am a Computer Science Graduate from the UK who loves **Linux, systems programming, **.
 
-I use NixOS but my config files are private.
-
-Beyond programming I am an avid gamer and fantasy and comic book reader. I love exploring anything and everything that interests me deeply so I can have the knowledge
-required to explain it to somebody else.
-
-My three projects I am most proud of are:
-- [whereami](https://github.com/OkRespire/whereami) - My first ever program that I made from a problem I had in my own experience using Linux
-- [nixos-gen-diff](https://github.com/OkRespire/nixos-gen-diff) - A more recent project that allows me to diff generations between NixOS in a TUI.
-- [BFB (Boring File Browser)](https://github.com/OkRespire/bfb) -My WIP project (well, all of these have to be unfinished since software never becomes finished). However, this came from wanting to learn how file browsers work, and so far this has been a very enjoyable experience.
-
-If you haven't noticed the theme yet, all three are written in Rust!
-
-Rust is my main language as I enjoy programming in it, however I can also do programming in
-many other languages like Python, Java and Go but not to the depth of Rust.
-
-I believe that most programming languages share many ideas with each other so I am fearless
-when learning a new stack.
+I enjoy building tools to solve problems I have encountered myself, exploring complex and unfamiliar technical concepts, and learning by implementing things from scratch. Rust is my main language but I have some experience with Java, C++, Python and Go.
 
 ---
 
-Apologies for the wall of text, but I will sign off with my favourite character's logo!
-```text
-              *                                                                      *
-         ********                                                                  ********
-    ***************                                                              ***************
-  *******************                                                          *******************
-   ********************                                                      ********************
-     ********************                                                  ********************
-      *********************                                              *********************
-       **********************             ************                 **********************
-        ***********************          **************              ***********************
-          ***********************      *****************           ***********************
-           ************************           ***********        ************************
-            *  **********************        *************     **********************  *
-              *************************    ****************  **************************
-               ************************** *******************************************
-                ********************************************************************
-                  ****************************************************************
-                   **************************************************************
-                    ************************************************************
-                      ********************************************************
-                       **** ******************************************** ****
-                           **********************************************
-                          ************************************************
-                           **********************************************
-                            ********************************************
-                              ********* ******************** *********
-                               ******* *********************+ *******
-                                 ***   **********************   ***
-                                       **********************
-                                       **********************
-                                      ************************
-                                      ************************
-                                       **********************
-                                        ********************
-                                          ****************
-                                           **************
-                                             **********
-                                               ******
-                                                ****
+## Projects
+### [whereami](https://github.com/OkRespire/whereami)
+A window switcher for Hyprland and Niri Wayland desktops, built with the [iced](https://github.com/iced-rs/iced) GUI library to improve my own workflow. I replaced shell-based inter-process communication with direct Unix socket communication, reducing window-query latency from **10.5 ms to 0.07 ms**.
+
+### [nixos-gen-diff](https://github.com/OkRespire/nixos-gen-diff)
+A TUI tool that makes changes between NixOS system generations easier to inspect. It presents system differences in a more readable format and uses background processing to keep the interface responsive.
+
+### [BFB (Boring File Browser)](https://github.com/OkRespire/bfb)
+A work-in-progress file browser that started as a way to explore how file-management tools work internally and will grow into a tool I want to use myself.
+
+---
+## Interests
+
+Outside programming, I enjoy gaming, fantasy, and comics. I like exploring technical concepts in depth and understanding them well enough to explain how they work.
 
